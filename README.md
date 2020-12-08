@@ -14,3 +14,13 @@
       - copy echo.py to the `cgi-bin` directory and **update python path in the first line of the file**  
       - copy .html .css files to `htdocs` directory
   3. #### Start Apache
+  
+  
+### for different directories
+  1. search:  
+        <Directory "/xampp/htdocs">  
+          ...  
+          Options Indexes FollowSymLinks Includes ExecCGI  
+          ...  
+        </Directory>
+  2. make sure `ExecCGI` is there
