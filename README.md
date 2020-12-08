@@ -9,6 +9,7 @@
       - find the line `AddHandler cgi-script .cgi .pl .asp` by searching for `.asp`
       - add `.py`  
       - finished line: `AddHandler cgi-script .cgi .pl .asp .py`
+      - save and close
   2. #### Place files
       - copy echo.py to the `cgi-bin` directory and **update python path in the first line of the file**  
       - copy .html .css files to `htdocs` directory
