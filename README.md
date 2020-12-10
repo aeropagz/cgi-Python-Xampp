@@ -2,7 +2,7 @@
 
 ### Requirements
   1. install Python3
-  2. get Path of executable by typing `where python` in CMD (Win10)
+  2. get Path of executable by typing `where python3` in CMD (Win10) or `which python3` in terminal(MAC/Linux)
 
 ### Instruction for Xampp configuration
   1. #### Add .py extention
